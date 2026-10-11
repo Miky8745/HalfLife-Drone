@@ -3,3 +3,4 @@ instructions_for_the_future.md
 .claude/
 esp_extension/.history
 *.lck
+esp_extension/production/backups
