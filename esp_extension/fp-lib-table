@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "drone") (type "KiCad") (uri "${KIPRJMOD}/libs/drone.pretty") (options "") (descr ""))
+)
