@@ -7,5 +7,5 @@ Here's a nice render of it
 ![img](/Screenshot_20261011_232057.png)
 
 ## Structure
-`esp_extension/` - KiCad files (including production files under `esp_extension/production`)
-`motor_test/` - A quick test with an AI generated script for driving the coreless motor
+ - `esp_extension/` - KiCad files (including production files under `esp_extension/production`)
+ - `motor_test/` - A quick test with an AI generated script for driving the coreless motor
