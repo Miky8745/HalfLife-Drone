@@ -153,16 +153,16 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0047c6ad-178f-4d44-946d-7690c7358f09")
-		(at 92 104.5 -90)
+		(at 93.8 104.5 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 -1.43 90)
+			(at -2 0 0)
 			(layer "F.SilkS")
 			(uuid "cbf5c920-92ee-46b2-a26b-0f985a9dab88")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -255,12 +255,6 @@
 		(path "/ecfbcf70-d7ad-419f-a5b2-5984e3335bf5")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -350,16 +344,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0f7efcf6-a5df-40f4-8afb-3bfff21ace70")
-		(at 96.5 103.5)
+		(at 95.5 114.2)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.43 0)
+			(at 0 1.272 0)
 			(layer "F.SilkS")
 			(uuid "6a07dcf3-7848-4e51-bbc6-ec45dad3362a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -452,12 +446,6 @@
 		(path "/6b920b99-b4ca-43a6-8a88-e9e99db1af03")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -547,16 +535,16 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "10490c92-9237-4b2a-b3fb-d6a47ef7cee2")
-		(at 89 145 -90)
+		(at 91 145 -90)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D3"
-			(at 0 -2.5 90)
+			(at 4 0 0)
 			(layer "F.SilkS")
 			(uuid "4bf93aeb-8615-46a6-8851-cb7e2fb00fa2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -641,12 +629,6 @@
 		(path "/f600b32c-84b3-4929-9274-0b7a1d6605ac")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -866,22 +848,22 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1429e6b8-0207-4fff-a04c-9db02edd295d")
-		(at 137.5 109.5 90)
+		(at 158 123)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "SW1"
-			(at 0 -2.38 90)
+			(at 0 -2.13 0)
 			(layer "F.SilkS")
 			(uuid "a20fcf23-dbee-4b55-94d3-6b58641cc634")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 0 7.46 90)
+			(at 0 7.46 0)
 			(layer "F.Fab")
 			(uuid "0e543768-f9a7-4135-b094-174eecbba6dc")
 			(effects
@@ -892,7 +874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "724feef7-21f1-47ed-ba8e-123bcdda8f92")
@@ -903,7 +885,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3b8a41c2-a169-4bcb-98e4-25657329c3e5")
@@ -914,7 +896,7 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4e3a8803-5b27-45ca-a0e6-b4fcc05e01eb")
@@ -926,7 +908,7 @@
 			)
 		)
 		(property "MPN" "S103mini"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -941,12 +923,6 @@
 		(path "/7801004a-c5c4-4e2d-a120-04f6d71a088a")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-		)
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -970,14 +946,14 @@
 			(uuid "e61329d9-3378-4c71-859c-8fe6ce39d832")
 		)
 		(fp_line
-			(start 1.38 1.27)
-			(end 1.38 6.46)
+			(start -1.38 1.27)
+			(end -1.38 6.46)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "539ee36c-99f2-4719-8ffd-16b5467cbae7")
+			(uuid "8f7c12ff-02e5-4828-aae5-ca6215c60093")
 		)
 		(fp_line
 			(start -1.38 1.27)
@@ -990,16 +966,6 @@
 			(uuid "6619be0d-fa82-4fb4-8857-df2644713bea")
 		)
 		(fp_line
-			(start -1.38 1.27)
-			(end -1.38 6.46)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8f7c12ff-02e5-4828-aae5-ca6215c60093")
-		)
-		(fp_line
 			(start -1.38 6.46)
 			(end 1.38 6.46)
 			(stroke
@@ -1008,6 +974,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a1699a26-56d1-4e09-ab0c-8aca240c62e1")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 6.46)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "539ee36c-99f2-4719-8ffd-16b5467cbae7")
 		)
 		(fp_rect
 			(start -1.77 -1.77)
@@ -1021,14 +997,24 @@
 			(uuid "7229c8ea-0bfc-47e9-b431-881793d72215")
 		)
 		(fp_line
-			(start 1.27 -1.27)
-			(end 1.27 6.35)
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2a7788b3-b259-4f5d-8c9f-56cbc62801ac")
+			(uuid "18d5b473-f4c6-4fd3-94da-7ad221e3757d")
+		)
+		(fp_line
+			(start -1.27 6.35)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2f55e86c-8aa2-4ea2-bc0c-87e254ac2e87")
 		)
 		(fp_line
 			(start -0.635 -1.27)
@@ -1041,14 +1027,14 @@
 			(uuid "10a99aa4-bb2e-46e2-b632-7f245dd2e993")
 		)
 		(fp_line
-			(start -1.27 -0.635)
-			(end -0.635 -1.27)
+			(start 1.27 -1.27)
+			(end 1.27 6.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "18d5b473-f4c6-4fd3-94da-7ad221e3757d")
+			(uuid "2a7788b3-b259-4f5d-8c9f-56cbc62801ac")
 		)
 		(fp_line
 			(start 1.27 6.35)
@@ -1060,18 +1046,8 @@
 			(layer "F.Fab")
 			(uuid "3caa50c2-dc95-4af6-a2ef-69ae282866d3")
 		)
-		(fp_line
-			(start -1.27 6.35)
-			(end -1.27 -0.635)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2f55e86c-8aa2-4ea2-bc0c-87e254ac2e87")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 0)
+			(at 0 2.54 270)
 			(layer "F.Fab")
 			(uuid "209ce30e-2866-4510-bf89-0184cb47b334")
 			(effects
@@ -1082,7 +1058,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 90)
+			(at 0 0)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1093,7 +1069,7 @@
 			(uuid "628e2a65-ae53-4ab2-b9a7-3347aa8b75a2")
 		)
 		(pad "2" thru_hole circle
-			(at 0 2.54 90)
+			(at 0 2.54)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1104,7 +1080,7 @@
 			(uuid "8d1b3a21-a012-4879-9147-56dcaabd64c2")
 		)
 		(pad "3" thru_hole circle
-			(at 0 5.08 90)
+			(at 0 5.08)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1134,12 +1110,12 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 -1.43 0)
+			(at 0 -1.272 0)
 			(layer "F.SilkS")
 			(uuid "740e1392-f883-4b1d-82fe-4e0a14f59a1b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -1232,12 +1208,6 @@
 		(path "/7844396e-0435-4fc4-a3b7-d9e22d0067a3")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1391,14 +1361,6 @@
 		(path "/0abd5618-912a-4d93-b1a0-4c33f32cae45")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
-					"16" "17" "18" "19" "20" "21" "22"
-				)
-			)
-		)
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1824,13 +1786,13 @@
 		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M2")
 		(property "Reference" "H3"
-			(at 0 -3.15 0)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fb078322-7c7d-4f57-b966-e79e8b8af977")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -1838,6 +1800,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "19818c31-f79e-4c92-89ae-5405da378593")
 			(effects
 				(font
@@ -1884,12 +1847,6 @@
 		(path "/30b4d30e-8767-4d3f-8919-47fcbe70b2ff")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1937,16 +1894,16 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "271ec608-9530-42a7-a72c-7b35bd43a598")
-		(at 95.5 147 180)
+		(at 94.8 140 180)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
-			(at 0 -2.4 180)
+			(at -2.745 0 0)
 			(layer "F.SilkS")
 			(uuid "519823c7-63ed-42c3-9949-7c470ba065fb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -2039,12 +1996,6 @@
 		(path "/69e9b939-af89-44ff-86bb-544f85dab248")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2358,16 +2309,16 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2881b3ff-df50-42ce-a127-113943777edc")
-		(at 133 108)
+		(at 140.5 104.5)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0 -1.68 0)
+			(at 0 -1.485 0)
 			(layer "F.SilkS")
 			(uuid "ac951c96-c973-494a-8b6f-a6764c870ceb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -2460,12 +2411,6 @@
 		(path "/b3597bbc-77c0-4099-a637-7acf1ce2a52b")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2555,16 +2500,16 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "28aa0a93-9ea6-44c7-a864-72cc596c11be")
-		(at 154 145 -90)
+		(at 152.2 145 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0 -1.43 90)
+			(at 2 0 0)
 			(layer "F.SilkS")
 			(uuid "24c91eee-5970-4ac8-95eb-d243d48bafa8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -2657,12 +2602,6 @@
 		(path "/524775e8-2bab-42f6-bdc1-8405bc00cd08")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2752,16 +2691,16 @@
 	(footprint "Diode_SMD:D_SMB"
 		(layer "F.Cu")
 		(uuid "2b9a093c-ff54-43c6-bf95-1c60011061fa")
-		(at 133 104)
+		(at 134 103.5)
 		(descr "Diode SMB (DO-214AA)")
 		(tags "Diode SMB (DO-214AA)")
 		(property "Reference" "D5"
-			(at 0 -3 0)
+			(at -0.13 -2.9 0)
 			(layer "F.SilkS")
 			(uuid "b2dd69c8-6282-49de-a600-65a9c9893398")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -2846,12 +2785,6 @@
 		(path "/8f26d405-93b4-4313-b227-7d371dc369d3")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3075,23 +3008,23 @@
 		(descr "Soldered wire connection, for 2 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
 		(tags "connector wire 0.25sqmm")
 		(property "Reference" "J4"
-			(at 2.1 0 90)
+			(at -1.675 0 0)
 			(layer "F.SilkS")
 			(uuid "b9f40717-9778-4f8a-99ec-ca1809b6072c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "MOTOR4"
-			(at 2.1 2.12 90)
+			(at 2.1 2.4 90)
 			(layer "F.Fab")
 			(uuid "fcbba7b9-f426-4f4f-a7d2-b25d87c85909")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3134,12 +3067,6 @@
 		(path "/8bfdd96f-65e0-48a0-83a4-452cf3251996")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3236,14 +3163,14 @@
 	(footprint "drone:VSON-10_L3.0-W2.0-P0.50-TL"
 		(layer "F.Cu")
 		(uuid "3ba41b32-03a0-49e4-94a3-66f1db6579e0")
-		(at 119.5 139)
+		(at 118.7 139)
 		(property "Reference" "U2"
-			(at 0 -5 0)
+			(at -1.88 0 90)
 			(layer "F.SilkS")
 			(uuid "12322bda-3d6a-4f31-ba09-a097322d3e22")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3322,12 +3249,6 @@
 		(path "/188bde7c-2e5c-445f-9f3c-599bccd0853f")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "10" "9" "8" "7" "6")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3565,7 +3486,7 @@
 			(uuid "59b605a5-0f76-4098-88f0-735aeee2c4dd")
 		)
 		(embedded_fonts no)
-		(model "/home/miky8745/Programming/Drone/esp_extension/libs/drone.3dshapes/VSON-10_L3.0-W2.0-P0.50-TL.wrl"
+		(model "${KIPRJMOD}/libs/drone.3dshapes/VSON-10_L3.0-W2.0-P0.50-TL.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3580,16 +3501,16 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "3ddca6a5-8428-4b21-8f83-ff630a3990e2")
-		(at 92 145 -90)
+		(at 93.8 145 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -1.43 90)
+			(at 2 0 0)
 			(layer "F.SilkS")
 			(uuid "d904de63-3e57-4b30-975c-03b39c1f6808")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3682,12 +3603,6 @@
 		(path "/96032dd0-facd-48b3-8881-7661475f1261")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3777,27 +3692,28 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "3f8ce114-0a33-4bb2-b23d-bec2c0b6d8d8")
-		(at 131 150)
+		(at 131.5 150.5)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
-			(at 0 -1.648 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "65257e6c-938f-4a18-a75d-b5dc790a14b9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "+BATT"
-			(at 0 1.75 0)
-			(layer "F.Fab")
+			(at 0 1.9 0)
+			(layer "F.SilkS")
 			(uuid "1d109731-97dc-4439-a11b-0634389d4086")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3832,12 +3748,6 @@
 		(path "/4e36b511-3662-402b-9f9f-cd4a3a09536f")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -3887,16 +3797,16 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "43ece27b-0521-4eed-bc64-154a3d99e61e")
-		(at 157 104.5 -90)
+		(at 155 104.5 -90)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D1"
-			(at 0 -2.5 90)
+			(at -4.26 0 0)
 			(layer "F.SilkS")
 			(uuid "682c6582-54a1-45cc-bcf5-67fd0f52292e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3981,12 +3891,6 @@
 		(path "/86d7609a-c777-4640-b3a0-dda0c65e1d07")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4210,12 +4114,12 @@
 		(descr "Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M3")
 		(property "Reference" "H6"
-			(at 0 -4.15 0)
+			(at 0 -2.35 0)
 			(layer "F.SilkS")
 			(uuid "9892740b-f338-4960-b887-a60739dbe50a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -4223,6 +4127,7 @@
 		(property "Value" "GY-521-Mount"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ef74f83c-c072-4da7-8da7-b1fa2994a374")
 			(effects
 				(font
@@ -4269,12 +4174,6 @@
 		(path "/6f98a947-7cb4-452c-8163-b38dd3fcf77e")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -4326,12 +4225,12 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 -1.43 0)
+			(at 0 -1.26 0)
 			(layer "F.SilkS")
 			(uuid "a30bfb7d-89c0-437a-ae30-4f992f1eeec2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -4424,12 +4323,6 @@
 		(path "/97a43079-6f74-4b54-9cd1-a08e2b49cef5")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4519,16 +4412,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "46c85276-c3b6-4b42-b2a1-18ce736d6fce")
-		(at 96.5 101.9)
+		(at 95.5 112.6)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R10"
-			(at 0 -1.43 0)
+			(at -2.73 0 0)
 			(layer "F.SilkS")
 			(uuid "9ed11497-35f9-4805-ad52-537e18dc9d7b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -4621,12 +4514,6 @@
 		(path "/74e938f7-5649-462a-b327-67f9062daaa7")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4716,16 +4603,16 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "49f643f1-c1e0-47ee-a665-3ecbd4ecd995")
-		(at 119.5 142.3)
+		(at 118.7 142.3)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.68 0)
+			(at 2.745 0 0)
 			(layer "F.SilkS")
 			(uuid "2cbf8cf2-e43d-4bb7-a24c-929e1f4ebd82")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -4818,12 +4705,6 @@
 		(path "/215f4f9e-dd0d-4e82-bc70-e5676d01b9fc")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4917,12 +4798,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 0 -1.68 0)
+			(at 0 1.485 0)
 			(layer "F.SilkS")
 			(uuid "4172a805-f146-46e5-a6d9-d8fc187fc89f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -5015,12 +4896,6 @@
 		(path "/70f7428e-9316-4d96-b4f5-8c9c11e166c3")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5110,16 +4985,16 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "503dfcda-94ec-479c-aaa5-e6cfdc4f5c9c")
-		(at 119.5 135.8)
+		(at 118.7 135.8)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.68 0)
+			(at 0 -1.485 0)
 			(layer "F.SilkS")
 			(uuid "53e08e9d-1a31-46b3-a8e0-5afd098b0f4e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -5212,12 +5087,6 @@
 		(path "/10781836-104e-4a64-9c7e-30c64d6a6189")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5307,16 +5176,16 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "51af8ddd-d5fe-487c-852a-52024a94d9e6")
-		(at 119.5 144.6)
+		(at 118.7 144.6)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.68 0)
+			(at 0 1.485 0)
 			(layer "F.SilkS")
 			(uuid "3faa36f9-49e0-4107-ab50-142714894035")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -5409,12 +5278,6 @@
 		(path "/f108b4f3-3a0c-4310-827a-d39b88f8ad69")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5504,16 +5367,16 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "55687fdc-c017-48d4-9f90-9fc501f35383")
-		(at 130 143.5 90)
+		(at 130.5 145.5 90)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J8"
-			(at 0 -2.38 90)
+			(at 2.13 3.81 0)
 			(layer "F.SilkS")
 			(uuid "0a656dd4-8c54-4e6e-ac86-8c9d5702ebdc")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -5567,12 +5430,6 @@
 		(path "/dcd0f4f9-e9fb-4638-8b0e-6514317cb4ce")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5771,23 +5628,23 @@
 		(descr "Soldered wire connection, for 2 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
 		(tags "connector wire 0.25sqmm")
 		(property "Reference" "J1"
-			(at 2.1 0 90)
+			(at -1.675 0 0)
 			(layer "F.SilkS")
 			(uuid "9f3279db-01e6-4d09-abd9-c0b80e718711")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "MOTOR1"
-			(at 2.1 2.12 90)
+			(at 2.1 2.4 90)
 			(layer "F.Fab")
 			(uuid "b887ac68-7a0e-45b2-ac2c-467c3a1f7c8a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -5830,12 +5687,6 @@
 		(path "/ba6b667d-3dce-4458-984a-1004800dc07c")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5932,16 +5783,16 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "5c88944d-18e2-44a9-b28f-4f25ac22a80f")
-		(at 150.5 106.5)
+		(at 151.2 109.5)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at 0 -2.4 0)
+			(at 0 -2.438 0)
 			(layer "F.SilkS")
 			(uuid "bda299d6-d46a-4f7a-892d-5908ecbf9b53")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -6034,12 +5885,6 @@
 		(path "/198619ba-dbfa-4413-98ff-6044f2b09823")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6353,16 +6198,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6235a2c8-87aa-4be5-a163-28dc3840a43e")
-		(at 149.5 144)
+		(at 150.3 135.3)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.43 0)
+			(at 0 -1.272 0)
 			(layer "F.SilkS")
 			(uuid "31618e20-ff65-48be-8f7f-9a8acfa09862")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -6455,12 +6300,6 @@
 		(path "/99e07339-11aa-447a-802c-7860b546dee4")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6550,16 +6389,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "65286bff-219d-469c-9049-1b390e557cbe")
-		(at 115.8 136.9)
+		(at 115 136.9)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.43 0)
+			(at 0 -1.272 0)
 			(layer "F.SilkS")
 			(uuid "27762fc0-661d-40e9-89aa-1c4c2535237f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -6652,12 +6491,6 @@
 		(path "/d7ec811f-56e4-4eb7-8860-20046fb4ce27")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6751,12 +6584,12 @@
 		(descr "Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M3")
 		(property "Reference" "H5"
-			(at 0 -4.15 0)
+			(at 0 -2.35 0)
 			(layer "F.SilkS")
 			(uuid "0ce61376-8268-4a2f-a573-1cd2da701480")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -6764,6 +6597,7 @@
 		(property "Value" "GY-521-Mount"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e754017f-3345-40f5-84d4-492600d84627")
 			(effects
 				(font
@@ -6810,12 +6644,6 @@
 		(path "/d58e9522-5e12-459e-8842-29e3130a4b22")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -6867,13 +6695,13 @@
 		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M2")
 		(property "Reference" "H4"
-			(at 0 -3.15 0)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bedd7c9c-dd0a-45cf-9b6f-780906ddacdb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -6881,6 +6709,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2ea4bf1d-adec-497a-b256-9d61efe1333e")
 			(effects
 				(font
@@ -6927,12 +6756,6 @@
 		(path "/9b4d06f1-1a5e-4352-a24b-6a2990d853dc")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -6980,16 +6803,16 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "74ae7a88-9eb1-4d52-9fb7-d861d991d3f7")
-		(at 154 104.5 -90)
+		(at 152.2 104.5 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.43 90)
+			(at -2 0 0)
 			(layer "F.SilkS")
 			(uuid "cbb08677-46ac-4d75-b41f-70360a2de36f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -7082,12 +6905,6 @@
 		(path "/0e1c3bbb-f229-405f-8b83-a485bd32aea8")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7179,12 +6996,12 @@
 		(uuid "7b412280-16f3-479d-b2d8-9e7f3e4ca490")
 		(at 122 139 90)
 		(property "Reference" "L1"
-			(at 0 -4 90)
+			(at 2.65 0 0)
 			(layer "F.SilkS")
 			(uuid "0338e211-3148-49e6-926b-58f5b5058cb3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -7264,12 +7081,6 @@
 		(path "/6ff958af-6619-47ca-b941-5fdba9a78741")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7413,8 +7224,8 @@
 			(uuid "2f0eba6f-3c32-442f-ae39-9e7bf80eb1aa")
 		)
 		(fp_circle
-			(center -1 0.8)
-			(end -0.97 0.8)
+			(center -2 0.8)
+			(end -1.97 0.8)
 			(stroke
 				(width 0.06)
 				(type solid)
@@ -7483,12 +7294,12 @@
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "J10"
-			(at 0 -2.77 0)
+			(at 0 -2.08 0)
 			(layer "F.SilkS")
 			(uuid "519016e7-2b16-471b-8a1d-33f6394b0eae")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -7542,12 +7353,6 @@
 		(path "/c1c0d74b-9e9d-468b-8535-fe4ad37bb0bb")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8")
-			)
-		)
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7815,16 +7620,16 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "83da850a-a4aa-48d1-8aa5-fd3f1ffc6eb7")
-		(at 144.3 146)
+		(at 88.5 124)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D8"
-			(at 0 -1.43 0)
+			(at -0.111 -1.485 0)
 			(layer "F.SilkS")
 			(uuid "c510d183-c24d-4ec2-b735-80592ce1cf0d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -7930,12 +7735,6 @@
 		(path "/d9d8fc69-9e7e-48cc-9b16-4b7224cadeeb")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8076,16 +7875,16 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "84fd096b-fa80-4abf-ac55-6e5e21457c8e")
-		(at 150.5 147)
+		(at 151.2 140)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
-			(at 0 -2.4 0)
+			(at -2.745 0 0)
 			(layer "F.SilkS")
 			(uuid "9bbe9cf5-00eb-4006-9777-a90652ac50a3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -8178,12 +7977,6 @@
 		(path "/bc9d9141-cac1-4dda-a1b2-a48ddbbc51d3")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8497,16 +8290,16 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "86872a57-7deb-44d6-aa7e-14dfa98e7999")
-		(at 157 145 -90)
+		(at 155 145 -90)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D4"
-			(at 0 -2.5 90)
+			(at -4.26 0 0)
 			(layer "F.SilkS")
 			(uuid "913aa019-322c-4047-8143-6813fcadbd43")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -8591,12 +8384,6 @@
 		(path "/8ea951fd-fdc0-407f-a00e-282fc61dedb1")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8816,16 +8603,16 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "910219d3-a731-46aa-81f3-13b4e2abf096")
-		(at 144.3 143.5)
+		(at 88.5 120)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D7"
-			(at 0 -1.43 0)
+			(at -0.111 -1.485 0)
 			(layer "F.SilkS")
 			(uuid "298db405-6580-40ea-bc91-3da444fcc550")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -8931,12 +8718,6 @@
 		(path "/0221d3e1-f281-48c1-a8e8-497b08a8309b")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9077,27 +8858,28 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "9194502f-f91d-4b43-a7e2-275b147eee9d")
-		(at 129.5 108.5)
+		(at 129.8 107.5)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
-			(at 0 -1.648 0)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "72f3943a-d2c9-44b4-a10a-a594341aaafd")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "VIN_3V3"
-			(at 0 1.75 0)
-			(layer "F.Fab")
+			(at 0 1.9 0)
+			(layer "F.SilkS")
 			(uuid "04b382f3-0a1b-434d-8163-f560608e2036")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -9132,12 +8914,6 @@
 		(path "/2d410647-2080-4b61-bd2d-b3c9411f9d61")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -9191,12 +8967,12 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.43 0)
+			(at 0 1.26 0)
 			(layer "F.SilkS")
 			(uuid "f526cf09-4e3d-4e1a-a4af-406ce86ad222")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -9289,12 +9065,6 @@
 		(path "/a4f772c6-73c1-402f-8a2f-13bd2116deef")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9384,16 +9154,16 @@
 	(footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.8mm_D0.9mm_OD2.3mm"
 		(layer "F.Cu")
 		(uuid "937d78b6-8547-4aaa-a16b-8f3b3fa52458")
-		(at 131 99.5)
+		(at 131 98.5)
 		(descr "Soldered wire connection, for 2 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 0.5sqmm")
 		(property "Reference" "J6"
-			(at 2.4 -2.35 0)
+			(at 2.4 -1.9 0)
 			(layer "F.SilkS")
 			(uuid "ea540db4-1f2e-45a2-ae40-2fb4cb6d7ee2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -9447,12 +9217,6 @@
 		(path "/a40da161-de1e-47b0-b139-bd901c761e83")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9553,12 +9317,12 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 -1.43 0)
+			(at 0 -1.272 0)
 			(layer "F.SilkS")
 			(uuid "28a7b050-eb04-4662-8b9c-e8e2ca12811f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -9651,12 +9415,6 @@
 		(path "/60e42d23-f093-4039-a6f0-49e748f5bd5a")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9750,12 +9508,12 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at 0 -1.43 0)
+			(at 0 -1.272 0)
 			(layer "F.SilkS")
 			(uuid "ef3b166b-1a69-41a3-bd78-fc691dbd4a86")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -9848,12 +9606,6 @@
 		(path "/3aa95b9f-4e02-43e0-8ebf-5f5c8119e34a")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9943,27 +9695,28 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "a726f72f-0e16-4ee3-8a46-1ca249d73792")
-		(at 137 150)
+		(at 142.5 150.5)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
-			(at 0 -1.648 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d5b9fbc6-5dcd-4879-8943-4df2019c6337")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "GND"
-			(at 0 1.75 0)
-			(layer "F.Fab")
+			(at 0 1.9 0)
+			(layer "F.SilkS")
 			(uuid "089e997d-e45a-47db-8695-7032c9c42062")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -9998,12 +9751,6 @@
 		(path "/cf100092-fb80-4ebd-bfdc-7f398ba9f1a9")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -10053,16 +9800,16 @@
 	(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "ab005fe9-ed1a-47b0-95ca-ce6a577175b3")
-		(at 140.3 101.5)
+		(at 141.5 99.5)
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C6"
-			(at 1.25 -4.4 0)
+			(at 1.12 -3.98 0)
 			(layer "F.SilkS")
 			(uuid "4eb069a4-10fd-4eb9-bd85-3c9ea2423d95")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -10129,12 +9876,6 @@
 		(path "/f098b563-8de0-4606-9ade-e85059a8b4ff")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11598,16 +11339,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ac9e4428-1027-4433-9458-3ad5321bcdb7")
-		(at 96.5 142.4)
+		(at 95.5 136.9)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.43 0)
+			(at -2.37 0 0)
 			(layer "F.SilkS")
 			(uuid "7ef43ae3-4512-4e46-a8c2-a68cd18dc4d4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -11700,12 +11441,6 @@
 		(path "/c28b4612-17a1-40d2-bade-9b281edc6928")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11795,16 +11530,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b3489ba6-df2b-45bc-ab5c-7c32bb1545b9")
-		(at 141.3 143.5)
+		(at 92 120)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R17"
-			(at 0 -1.43 0)
+			(at 0 -1.272 0)
 			(layer "F.SilkS")
 			(uuid "04a704c2-b097-477d-a651-cf4bc3616e16")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -11897,12 +11632,6 @@
 		(path "/19e300cc-7cd1-46ba-9d38-46b88f5f58ce")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11992,16 +11721,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b35226b7-7063-4b34-abb8-eaa50421d98a")
-		(at 96.5 144)
+		(at 95.5 135.3)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.43 0)
+			(at 0 -1.272 0)
 			(layer "F.SilkS")
 			(uuid "bc7a1100-b163-4923-bff2-788aed8c80b1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -12094,12 +11823,6 @@
 		(path "/be51a23e-5e89-45f1-b48a-2f98e21c14a8")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12189,16 +11912,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b95d850f-23d4-4a34-abc8-c38c89eb1349")
-		(at 149.5 101.9)
+		(at 150.3 112.6)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.43 0)
+			(at -2.37 0 0)
 			(layer "F.SilkS")
 			(uuid "be71085d-d283-4027-81bb-b72ca03b0680")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -12291,12 +12014,6 @@
 		(path "/762f68b2-9afa-48ce-83ef-a10eaffdcd72")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12390,13 +12107,13 @@
 		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M2")
 		(property "Reference" "H1"
-			(at 0 -3.15 0)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e2b0a2a3-6349-4c3d-a83a-09ad8b618de7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -12404,6 +12121,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f1fed889-39d0-430d-82df-d1486f45d23c")
 			(effects
 				(font
@@ -12450,12 +12168,6 @@
 		(path "/185dcd83-7905-4874-b394-7c700045194b")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -12503,16 +12215,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c1ee7b64-0404-49ed-ab18-b8a951461194")
-		(at 149.5 103.5)
+		(at 150.3 114.2)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.43 0)
+			(at 0 1.272 0)
 			(layer "F.SilkS")
 			(uuid "641b84d7-0e65-472b-926e-06eebc0adaa7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -12605,12 +12317,6 @@
 		(path "/a8c1e3a7-2f1f-438b-bddb-7e12d58fa885")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12700,16 +12406,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c21fa725-2be5-4a70-8d32-294d4cdb989a")
-		(at 149.5 142.4)
+		(at 150.3 136.9)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 -1.43 0)
+			(at -2.73 0 0)
 			(layer "F.SilkS")
 			(uuid "868e0f6c-5c5d-49c1-b8ac-6c9f27065ac7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -12802,12 +12508,6 @@
 		(path "/74cc3bb8-cf1b-416e-9397-85be1e6b2560")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12961,14 +12661,6 @@
 		(path "/f686fddb-a05d-491a-9fd8-67e51a919d90")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
-					"16" "17" "18" "19" "20" "21" "22"
-				)
-			)
-		)
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13390,16 +13082,16 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "c4ad6be6-26d9-48c7-acd8-50f4622cd717")
-		(at 133 111.3)
+		(at 134 107.5)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D6"
-			(at 0 -2 0)
+			(at -0.055 1.75 0)
 			(layer "F.SilkS")
 			(uuid "3f8515d7-7dd1-426d-ae77-fe678647d221")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -13484,12 +13176,6 @@
 		(path "/1649f0ed-c696-4259-8793-8b84e1187a54")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13719,27 +13405,28 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "c4b81b79-1552-4399-9706-4a586200aeb6")
-		(at 134 150)
+		(at 137 150.5)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
-			(at 0 -1.648 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "13b13605-3d6a-4dfc-96ea-9e6972776e5c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "+3V3"
-			(at 0 1.75 0)
-			(layer "F.Fab")
+			(at 0 1.9 0)
+			(layer "F.SilkS")
 			(uuid "3c3c85ba-90a5-4d34-bd91-31f3bbf73389")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -13774,12 +13461,6 @@
 		(path "/3fc1c840-08a8-4b78-8242-821d8297fb00")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -13833,12 +13514,12 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at 0 -1.43 0)
+			(at -2.37 0 0)
 			(layer "F.SilkS")
 			(uuid "2e013ae0-292a-4dcf-8fdb-6cab4f297f8e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -13931,12 +13612,6 @@
 		(path "/c6d70036-d1b0-4e56-a5e7-6fba599c20e1")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14030,13 +13705,13 @@
 		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M2")
 		(property "Reference" "H2"
-			(at 0 -3.15 0)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "80b20676-2bd9-41f9-9f6e-5e46defc42d0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -14044,6 +13719,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "77ec7f6a-6220-4212-b3b8-9526abd422f2")
 			(effects
 				(font
@@ -14090,12 +13766,6 @@
 		(path "/579cbee5-cea5-4b9b-a786-4db880b5c910")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -14143,16 +13813,16 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "cafe24cd-3b33-42b3-b3b6-31c5f6075fa7")
-		(at 95.5 106.5 180)
+		(at 94.8 109.5 180)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 0 -2.4 180)
+			(at 0 2.438 0)
 			(layer "F.SilkS")
 			(uuid "a0d1df52-31ca-4f4e-8816-a2dda55d3b2f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -14245,12 +13915,6 @@
 		(path "/aca3014b-8661-47c2-ac7c-9fa70bd70734")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14568,23 +14232,23 @@
 		(descr "Soldered wire connection, for 2 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
 		(tags "connector wire 0.25sqmm")
 		(property "Reference" "J3"
-			(at 2.1 0 90)
+			(at -1.675 0 0)
 			(layer "F.SilkS")
 			(uuid "6f1d7e5c-9f94-40b6-bbf3-56c6766da96a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "MOTOR3"
-			(at 2.1 2.12 90)
+			(at 2.1 -2.4 90)
 			(layer "F.Fab")
 			(uuid "05bf89e9-ab7a-414a-bc78-4b7c3321be80")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -14627,12 +14291,6 @@
 		(path "/c64705d7-3dc2-4ca3-8845-2e69ca629d5a")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -14729,16 +14387,16 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e4010b65-d1f0-4352-b02f-1057f66384b9")
-		(at 130 139.5 90)
+		(at 130.5 140.5 90)
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J9"
-			(at 0 -2.38 90)
+			(at 2.13 6.35 0)
 			(layer "F.SilkS")
 			(uuid "804fa4f4-6ecb-4d97-a2f7-9e3f2fb1347d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -14792,12 +14450,6 @@
 		(path "/48b86255-6438-4987-9768-496fb5da3ca4")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6")
-			)
-		)
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15018,12 +14670,12 @@
 		(descr "LGA-8")
 		(tags "lga land grid array")
 		(property "Reference" "U3"
-			(at 0 -3.65 0)
+			(at 0 -3.35 0)
 			(layer "F.SilkS")
 			(uuid "5642e197-079e-4067-ac46-0a7e0740ebda")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -15108,12 +14760,6 @@
 		(path "/114db326-5435-4621-9c2e-55e2f24b8233")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "6" "7" "8" "4" "5" "1" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15387,16 +15033,16 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "ecd72004-2f07-4fd6-bfcc-82c9a12da930")
-		(at 89 104.5 -90)
+		(at 91 104.5 -90)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D2"
-			(at 0 -2.5 90)
+			(at -4.26 0 0)
 			(layer "F.SilkS")
 			(uuid "1ba14a1d-53bc-4362-864b-6d873a422102")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -15481,12 +15127,6 @@
 		(path "/fc7b5e60-f36b-46a5-83b0-74bec65f12c4")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15710,12 +15350,12 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 -1.43 0)
+			(at 0 -1.26 0)
 			(layer "F.SilkS")
 			(uuid "d8e53d05-cd46-4987-9cca-d07d02552a23")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -15808,12 +15448,6 @@
 		(path "/b0698cbb-d443-4d64-bd15-492be5e0ca8f")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15903,16 +15537,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f195f61a-2524-4493-af66-3f7cacc648ee")
-		(at 115.8 138.6)
+		(at 115 138.6)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 0 -1.43 0)
+			(at -2.37 0 0)
 			(layer "F.SilkS")
 			(uuid "abea77cc-8006-4b01-b59d-efed93def2a6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -16005,12 +15639,6 @@
 		(path "/62158c3e-4d9b-4757-bc18-4a5780f2070a")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16100,16 +15728,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f51f8008-e819-4bf3-85c8-5da187dbd050")
-		(at 115.8 140.3)
+		(at 115 140.3)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.43 0)
+			(at -2.37 0 0)
 			(layer "F.SilkS")
 			(uuid "e512c27b-3645-4a67-93a6-683b1ec617c5")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -16202,12 +15830,6 @@
 		(path "/ab703745-7d2a-4725-9db9-5fe2de1ea54a")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16297,16 +15919,16 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f9faa798-897e-4f15-a6f6-b5078d2848cf")
-		(at 141.3 146)
+		(at 92 124)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R18"
-			(at 0 -1.43 0)
+			(at 0 -1.272 0)
 			(layer "F.SilkS")
 			(uuid "135c3e70-d3a1-4ae7-a434-7622a6571d6f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -16399,12 +16021,6 @@
 		(path "/536ea3c7-ac61-45d6-a075-a5951579ad55")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16498,23 +16114,23 @@
 		(descr "Soldered wire connection, for 2 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
 		(tags "connector wire 0.25sqmm")
 		(property "Reference" "J2"
-			(at 2.1 0 90)
+			(at -1.675 0 0)
 			(layer "F.SilkS")
 			(uuid "f21f2d7d-ffd0-44d0-ae04-2b44e97dbfd1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "MOTOR2"
-			(at 2.1 2.12 90)
+			(at 2.1 -2.4 90)
 			(layer "F.Fab")
 			(uuid "df84a2a2-68ac-45c4-b446-c3e66c4f2488")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -16557,12 +16173,6 @@
 		(path "/d5739c14-2497-474c-8bce-cf4d1e584432")
 		(sheetname "/")
 		(sheetfile "esp_extension.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
