@@ -6,6 +6,9 @@ It's an extension for an ESP32 S3 that allows it to safely control 4 coreless DC
 Here's a nice render of the PCB.
 ![img](/Screenshot_20261011_232057.png)
 
+And here's a nice render of the frame.
+![img](/cover_image_week_2.png)
+
 ## Structure
  - `esp_extension/` - KiCad files (including production files under `esp_extension/production`)
  - `motor_test/` - A quick test with an AI generated script for driving the coreless motor
