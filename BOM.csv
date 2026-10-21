@@ -1,0 +1,20 @@
+Designator,Value,Footprint,Qty per board,Part #,Qty ordered,Price,Currency,URL,Source,Funded by
+"C1, C2, C3, C8, C13",22u,0805,5,C45783,10,2.21,USD,https://www.lcsc.com/product-detail/C45783.html,JLCPCB Assembly,Grant
+"C4, C5, C7, C9, C10, C11, C14",100n,0603,7,C14663,14,0.20,USD,https://www.lcsc.com/product-detail/C14663.html,JLCPCB Assembly,Grant
+"D1, D2, D3, D4",SS34,SMA,4,C8678,8,0.28,USD,https://www.lcsc.com/product-detail/C8678.html,JLCPCB Assembly,Grant
+D5,SMBJ5.0A,SMB,1,C19077558,5,0.24,USD,https://www.lcsc.com/product-detail/C19077558.html,JLCPCB Assembly,Grant
+D6,B5819W,SOD-123,1,C8598,2,0.06,USD,https://www.lcsc.com/product-detail/C8598.html,JLCPCB Assembly,Grant
+"D7, D8",Red LED,0603,2,C2286,4,0.03,USD,https://www.lcsc.com/product-detail/C2286.html,JLCPCB Assembly,Grant
+L1,0.47uH,2016,1,C668312,5,0.89,USD,https://www.lcsc.com/product-detail/C668312.html,JLCPCB Assembly,Grant
+"Q1, Q2, Q3, Q4",AO3400A,SOT-23,4,C20917,8,0.71,USD,https://www.lcsc.com/product-detail/C20917.html,JLCPCB Assembly,Grant
+"R1, R2, R10, R11",100,0603,4,C22775,8,0.02,USD,https://www.lcsc.com/product-detail/C22775.html,JLCPCB Assembly,Grant
+"R3, R4, R7, R13, R14, R15, R16",10k,0603,7,C25804,14,0.03,USD,https://www.lcsc.com/product-detail/C25804.html,JLCPCB Assembly,Grant
+"R5, R8, R9",100k,0603,3,C25803,6,0.02,USD,https://www.lcsc.com/product-detail/C25803.html,JLCPCB Assembly,Grant
+R6,56k,0603,1,C23206,2,0.01,USD,https://www.lcsc.com/product-detail/C23206.html,JLCPCB Assembly,Grant
+"R17, R18",1k,0603,2,C21190,4,0.01,USD,https://www.lcsc.com/product-detail/C21190.html,JLCPCB Assembly,Grant
+U2,TPS63802DLAR,VSON-10,1,C2845237,2,1.81,USD,https://www.lcsc.com/product-detail/C2845237.html,JLCPCB Assembly,Grant
+U3,MS5611-01BA,LGA-8,1,C15639,2,13.43,USD,https://www.lcsc.com/product-detail/C15639.html,JLCPCB Assembly,Grant
+C6,220u 16V electrolytic,"Radial D6.3 mm, 2.5 mm pitch",1,,1,3,CZK,https://www.radiokus.cz/220uF-16V-elektrolyticky-radialni-kondenzator-d2327.htm,Self-sourced,Me
+SW1,S103mini SPDT slide switch,"3 pin, 2.54 mm",1,,1,7,CZK,https://www.radiokus.cz/Posuvny-prepinac-jednoduchy-do-DPS-d4843.htm,Self-sourced,Me
+"J5, J7, J10","Female header 1x40, cut to 1x22 + 1x22 + 1x08",2.54 mm,2,,2,50,CZK,https://www.radiokus.cz/zasuvka-1-x-40-pinu-do-dps-prima-rastr-2-54mm,Self-sourced,Me
+"J8, J9","Male header 1x11, cut to 1x04 + 1x06",2.54 mm,1,,1,8,CZK,https://www.radiokus.cz/Vidlice-1-x-11-pinu-do-DPS-prima-rastr-2-54mm-d3864.htm,Self-sourced,Me
